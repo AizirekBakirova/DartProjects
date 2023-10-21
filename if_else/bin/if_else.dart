@@ -34,14 +34,24 @@ import 'package:if_else/if_else.dart' as if_else;
 //   }
 // }
 
+// void main() {
+//   int day = 8;
+//   if (day == 1 || day == 2 || day == 3 || day == 4 || day == 5) {
+//     print("Jumush kun");
+//   } else if (day > 7) {
+//     print(
+//         "Siz jumada 7 kun bar ekenin bilesiz, programma menen oinoi berbeniz");
+//   } else {
+//     print("Es aluu kun");
+//   }
+// }
+
 void main() {
-  int day = 8;
-  if (day == 1 || day == 2 || day == 3 || day == 4 || day == 5) {
-    print("Jumush kun");
-  } else if (day > 7) {
-    print(
-        "Siz jumada 7 kun bar ekenin bilesiz, programma menen oinoi berbeniz");
-  } else {
-    print("Es aluu kun");
+  String sap = 'Sasha';
+
+  if (sap.isEmpty) {
+    print('saptyn ichi bosh');
+  } else if (sap.isNotEmpty) {
+    print('Saptyn ichinde jazuu bar, al jazuu $sap');
   }
 }
